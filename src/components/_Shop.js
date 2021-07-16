@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import plants from './_plantsData.js'
+import PlantsItem from './_PlantsItem'
 
 const Shop = () => {
 
+    const [plantsItems, setPlantsSet] = useState(plants)
+
     return (
         <>
-           <h2>Shop Online</h2>
+           {
+               plantsItems.map(item => {
+                   return (
+                       <>
+                       <PlantsItem item={item} />
+                       <img src="../assets/Alokazja_Azlani.jpg" alt="" style={{width:"250px", height:"250px  "}}/>
+                       </>
+                   )
+               })
+           }
+           <p>dupa</p>
         </>
     )
 }
