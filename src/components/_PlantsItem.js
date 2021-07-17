@@ -5,6 +5,7 @@ const PlantsItem = ({item}) => {
         <>
         <p>{item.title}</p>
         <img src={item.img} alt={item.title}/>
+        <p>{item.price} zł</p>
         </>
     )
 }

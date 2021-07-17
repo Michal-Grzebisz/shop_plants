@@ -9,11 +9,11 @@ const Shop = () => {
 
     return (
         <>
+          <NavBar />
            {
                plantsItems.map(item => {
                    return (
                        <>
-                       <NavBar />
                        <PlantsItem item={item} />
                        <img src="../assets/Alokazja_Azlani.jpg" alt="" style={{width:"250px", height:"250px  "}}/>
                        </>
