@@ -3,7 +3,7 @@ const plants = [
         id: 1,
         title: 'Anthurium Clarinervum' ,
         category: 'rare',
-        price: 15,
+        price: `120 zł`,
         img:'./assets/Anthurium.jpg',
         desc:'Anthurium',
 
