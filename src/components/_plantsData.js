@@ -1,10 +1,16 @@
+import Anthurium from '../assets/Anthurium.jpg'
+import Verrucosum from '../assets/Philodendron_Verrucosum.jpg'
+import Frydek from '../assets/Alokazja_Frydek.jpg'
+import BlackVelvet from '../assets/Alokazja_Black_Velvet.jpg'
+
+
 const plants = [
     {
         id: 1,
         title: 'Anthurium Clarinervum' ,
         category: 'rare',
         price: 120,
-        img:'./assets/Anthurium.jpg',
+        img: Anthurium,
         desc:'Anthurium',
 
     },
@@ -13,7 +19,7 @@ const plants = [
         title: 'Philodendron Verrucosum' ,
         category: 'rare',
         price:  390,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Verrucosum,
         desc: 'Philodendron Verrucosum',
     },
     {
@@ -21,7 +27,7 @@ const plants = [
         title: 'Alokzacja Frydek Velvet' ,
         category: 'rare',
         price: 360,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Alokzacja Frydek Velvet',
     },
     {
@@ -29,7 +35,7 @@ const plants = [
         title: 'Alokazja Black Velvet' ,
         category: 'rare',
         price: 210,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: BlackVelvet,
         desc: 'Alokazja Black Velvet',
     },
     {
@@ -37,7 +43,7 @@ const plants = [
         title: 'Alokazja Azlani' ,
         category: 'rare',
         price: 480,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Alokazja Azlani',
     },
     {
@@ -45,7 +51,7 @@ const plants = [
         title: 'Alocasia Macrorrizos Black Stem' ,
         category: 'rare',
         price: 280,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Alocasia Macrorrizos Black Stem',
     },
     {
@@ -53,7 +59,7 @@ const plants = [
         title: 'Monstera Deliciosa Alba Variegata',
         category: 'rare',
         price: 890,
-        img:'../assets/Philodendron_Verrucosum.jpg' ,
+        img: Frydek,
         desc: 'Monstera Deliciosa Alba Variegata',
     },
     {
@@ -61,7 +67,7 @@ const plants = [
         title: 'Alocasia Zebrina Black',
         category: 'rare',
         price: 250,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img:  Frydek,
         desc: 'Alocasia Zebrina Black',
     },
     {
@@ -69,7 +75,7 @@ const plants = [
         title: 'Maranta Lemon Lime',
         category: 'rare',
         price: 380 ,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Maranta Lemon Lime',
     },
     {
@@ -77,7 +83,7 @@ const plants = [
         title: 'Philodendron Red Beauty XXL',
         category: 'rare',
         price: 260,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img:  Frydek,
         desc:'Philodendron Red Beauty XXL' ,
     },
     {
@@ -85,7 +91,7 @@ const plants = [
         title: 'Euphorbia Ingens Variegata',
         category: 'rare',
         price: 2200,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Euphorbia Ingens Variegata',
     },
     {
@@ -93,7 +99,7 @@ const plants = [
         title: 'Philodendron Ghost Green',
         category: 'rare',
         price: 230,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img:  Frydek,
         desc: 'Philodendron Ghost Green',
     },
     {
@@ -101,7 +107,7 @@ const plants = [
         title: 'Syngonium Variegata Emerald Gem',
         category: 'rare',
         price: 350,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Syngonium Variegata Emerald Gem',
     },
     {
@@ -109,7 +115,7 @@ const plants = [
         title: 'Philodendron Prince Of Orange Light',
         category: 'rare',
         price: 250,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Philodendron Prince Of Orange Light',
     },
     {
@@ -117,7 +123,7 @@ const plants = [
         title: 'Syngonium Mottled Mojito',
         category: 'rare',
         price: 190,
-        img: '../assets/Philodendron_Verrucosum.jpg',
+        img: Frydek,
         desc: 'Syngonium Mottled Mojito' ,
     },
     

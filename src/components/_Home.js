@@ -12,7 +12,6 @@ const Home = () => {
                     <source src={BackgroundVideo} type='video/mp4'/>
                 </video>
                 <div className="header_container container">
-                    <span className="logo">Logo</span>
                     <NavBar />
                 </div>
             </header>
